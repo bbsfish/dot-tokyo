@@ -1,0 +1,59 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome to Japan Travel Tour Planning by Trip Dot Tokyo!</h1>
+			<p>
+				We specialize in creating and organizing unique and captivating tours
+				for foreign travelers visiting Japan.
+				Guests can choose from a variety of activities and,
+				through consultations with us, flexibly customize their tour content.
+				Additionally, we offer a dedicated photography service
+				to ensure your travel memories are perfectly captured.
+			</p>
+			<p>
+				This service is a brand-new initiative, launched as a pilot project.
+				While it is still in an experimental stage,
+				we are committed to providing our customers with the best possible experience.
+			</p>
+			<p>
+				Let us help make your trip to Japan even more special!
+			</p>
+			<p>
+				<a href="/planning">Make your tour</a>
+			</p>
+
+			<hr />
+			<h1>ようこそ、Trip Dot Tokyo の日本旅行ツアー企画へ！</h1>
+
+			<p>
+				私たちは、日本を訪れる外国人旅行者のために、ユニークで魅力的なツアーを企画・実施しています。
+				お客様は、多彩なアクティビティの中からお好みのものを選びつつ、
+				私たちとの相談を通じて、自由にツアー内容をカスタマイズすることができます。
+				さらに、旅行の思い出をしっかりと残せるよう、写真撮影専用のサービスもご提供しています。
+			</p>
+			<p>
+				このサービスは、まったく新しい試みとしてスタートしました。
+				試験的な段階ではありますが、お客様にとって最高の体験を提供するために全力を尽くします。
+			</p>
+			<p>
+				あなたの日本旅行を、より特別なものにするお手伝いをさせてください！
+			</p>
+			<p>
+				<a href="/planning">計画を始める</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

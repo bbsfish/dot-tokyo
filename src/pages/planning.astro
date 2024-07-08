@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/PlainPage.astro';
+import VueComponent from "../content/PlanningSPA.vue";
+---
+<Layout
+	title="Start building your journey!"
+	description="Experience the best of Japan with our custom tours! Choose from a variety of activities and work with us to create a flexible and personalized itinerary. We also offer photography services to capture your memories. Request your tour now! | 日本で最高のカスタムツアーを体験してください！ 多彩なアクティビティから選び、私たちと一緒に柔軟でパーソナライズされた旅程を作成しましょう。 思い出を写真に残すサービスも提供しています。今すぐツアーをリクエストしてください！"
+>
+
+<!-- client:load については https://docs.astro.build/ja/guides/framework-components/#using-framework-components -->
+<VueComponent client:load />
+
+</Layout>
